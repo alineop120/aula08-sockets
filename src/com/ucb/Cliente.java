@@ -47,8 +47,6 @@ public class Cliente {
             while ((inputLine = stdIn.readLine()) != null) {
                 out.writeObject(inputLine + "\n");
                 out.flush();
-
-
             }
 
             in.close();
